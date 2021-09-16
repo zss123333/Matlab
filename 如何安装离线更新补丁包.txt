@@ -1,0 +1,14 @@
+如何安装MATLAB Update离线更新补丁包？
+
+:: 解压R2021a_Update3_Package.zip -> 安装目录 D:\R2021a\bin\win64 右键新建bat,  粘贴命令行运行！
+update_installer.exe -updatepackage "C:\Users\Administrator\Desktop\R2021a_Update3_Package"
+
+注意：更新完毕后，请按照破解操作说明第二步重新复制下libmwlmgrimpl.dll,  license.lic到安装指定位置
+https://ww2.mathworks.cn/help/install/ug/update-mathworks-software-on-offline-machine.html
+
+
+注意：经过实测，安装更新补丁后会造成破解失效，建议暂时不安装，不影响使用。
+
+
+获取更多实用软件请关注微信公众号：IT迷
+
